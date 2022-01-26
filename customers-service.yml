@@ -1,8 +1,4 @@
 spring:
-  datasource:
-    url: dbc:mysql://spring-cloud-workshop-mysql.mysql.database.azure.com:3306/petclinic?useSSL=true&requireSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
-    username: springcloud
-    password: E^M06J5q&s8^
   jpa:
     properties:
       hibernate:
