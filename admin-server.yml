@@ -1,6 +1,3 @@
-spring:
-  jmx:
-    enable: true
 eureka:
   instance:
     # enable to register multiple app instances with a random server port

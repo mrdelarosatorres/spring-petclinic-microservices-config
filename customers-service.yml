@@ -1,6 +1,8 @@
 spring:
-  jmx:
-    enable: true
+  cloud:
+    config:
+      auto-refresh: true
+      refresh-interval: 30
 eureka:
   instance:
     # enable to register multiple app instances with a random server port
