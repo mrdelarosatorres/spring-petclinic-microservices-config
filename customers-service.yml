@@ -2,7 +2,7 @@ spring:
   cloud:
     config:
       auto-refresh: true
-      refresh-interval: 30
+      refresh-interval: 5
 eureka:
   instance:
     # enable to register multiple app instances with a random server port
