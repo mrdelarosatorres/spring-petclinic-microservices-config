@@ -2,4 +2,4 @@ spring:
   cloud:
     config:
       auto-refresh: true
-      refresh-interval: 10
+      refresh-interval: 60
