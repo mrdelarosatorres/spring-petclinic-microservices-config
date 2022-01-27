@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      auto-refresh: true
+      refresh-interval: 10
