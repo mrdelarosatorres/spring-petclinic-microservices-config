@@ -2,8 +2,4 @@ spring:
   cloud:
     config:
       auto-refresh: true
-      refresh-interval: 5
-eureka:
-  instance:
-    # enable to register multiple app instances with a random server port
-    instance-id: ${spring.application.name}:${random.uuid}
+      refresh-interval: 60
